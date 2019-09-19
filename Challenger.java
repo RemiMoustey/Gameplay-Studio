@@ -1,54 +1,48 @@
 package com.cursan.gameplay_studio;
-import java.util.Scanner;
 
+/**
+ * Implements the Challenger mode : the user tries to guess the random combination
+ */
 public class Challenger extends Game {
     public Challenger() {
         makeCombination();
         game();
     }
 
+    /**
+     * Build the random combination
+     */
     public void makeCombination() {
-        String combination = "";
+        String programCombination = "";
         int number;
         for (int i = 0; i < 4; i++) {
-            number = (int) (Math.random() * 10);
-            combination += number;
+            number = (int) pickRandomNumber();
+            programCombination += number;
         }
-        setCombination(combination);
+        combination = programCombination;
     }
 
+    /**
+     * Implements the working of the game in the challenger mode
+     */
     public void game() {
-        Scanner sc = new Scanner(System.in);
-        String response;
+        String userResponse;
         do {
-            response = "";
+            String programResponse = "";
             System.out.println("Votre proposition : ");
-            do {
-                setProposition(sc.next());
-                try {
-                    Integer.parseInt(getProposition());
-                }
-                catch (NumberFormatException e) {
-                    System.out.println("Erreur : saisie invalide");
-                    game();
-                    return; // The first call has to finish
-                }
-                if (getProposition().length() != 4) {
-                    System.out.println("Vous devez saisir un nombre entier à quatre chiffres.\nVotre proposition : ");
-                }
-            } while (getProposition().length() != 4);
-            for (int i = 0; i < getCombination().length(); i++) {
-                if ((int) getCombination().charAt(i) > (int) getProposition().charAt(i)) {
-                    response += "+";
-                } else if ((int) getCombination().charAt(i) < (int) getProposition().charAt(i)) {
-                    response += "-";
+            drawInputUser("proposition");
+            for (int i = 0; i < combination.length(); i++) {
+                if ((int) combination.charAt(i) > (int) proposition.charAt(i)) {
+                    programResponse += "+";
+                } else if ((int) combination.charAt(i) < (int) proposition.charAt(i)) {
+                    programResponse += "-";
                 } else {
-                    response += "=";
+                    programResponse += "=";
                 }
             }
-            setResponse(response);
-            System.out.println("Proposition : " + getProposition() + " -> Réponse : " + getResponse());
-        } while (!getCombination().equals(getProposition()));
+            response = programResponse;
+            System.out.println("Proposition : " + proposition + " -> Réponse : " + response);
+        } while (!combination.equals(proposition));
         System.out.println("Félicitations ! Vous avez trouvé la bonne combinaison !");
     }
 }
