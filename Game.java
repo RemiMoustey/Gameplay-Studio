@@ -16,8 +16,8 @@ abstract public class Game {
      * @return
      *          The random double
      */
-    public double pickRandomNumber() {
-        return Math.random() * 10;
+    public int pickRandomNumber(int min, int max) {
+        return min + (int) (Math.random() * (max - min + 1));
     }
 
     public void makeProposition(String combination) {

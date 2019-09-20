@@ -16,7 +16,7 @@ public class Challenger extends Game {
         String programCombination = "";
         int number;
         for (int i = 0; i < 4; i++) {
-            number = (int) pickRandomNumber();
+            number = pickRandomNumber(0, 10);
             programCombination += number;
         }
         combination = programCombination;
@@ -26,7 +26,6 @@ public class Challenger extends Game {
      * Implements the working of the game in the challenger mode
      */
     public void game() {
-        String userResponse;
         do {
             String programResponse = "";
             System.out.println("Votre proposition : ");
