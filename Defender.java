@@ -21,33 +21,42 @@ public class Defender extends Game {
     public void game() {
         Scanner sc = new Scanner(System.in);
         proposition = "";
-        String newProposition = "";
         for(int i = 0; i < combination.length(); i++) {
             proposition += Integer.toString(pickRandomNumber(0, 9));
         }
         do {
-            newProposition = "";
             System.out.println("La proposition de l'ordinateur est : " + proposition);
+            System.out.println("Votre réponse :");
             response = sc.next();
-            for (int i = 0; i < response.length(); i++) {
-                if (response.charAt(i) == '+') {
-                    newProposition += pickRandomNumber(Character.getNumericValue(proposition.charAt(i) + 1), 9);
-                }
-                else if (response.charAt(i) == '-') {
-                    newProposition += pickRandomNumber(0, Character.getNumericValue(proposition.charAt(i) - 1));
-                }
-                else if (response.charAt(i) == '=') {
-                    newProposition += proposition.charAt(i);
-                }
-                if (response.charAt(i) != '+' && response.charAt(i) != '-' && response.charAt(i) != '=' || response.length() != 4) {
-                    System.out.println("Veuillez saisir une réponse correcte. Recommencez : ");
-                    game();
-                    return;
-                }
-            }
-            proposition = newProposition;
-        } while (!combination.equals(proposition));
+            loopResponse();
+        } while(!combination.equals(proposition));
         System.out.println("L'ordinateur a trouvé la bonne combinaison !");
+    }
+
+    /**
+     * Controls the response of the user
+     */
+    public void loopResponse() {
+        String newProposition = "";
+        for (int i = 0; i < response.length(); i++) {
+            if (response.charAt(i) == '+') {
+                newProposition += pickRandomNumber(Character.getNumericValue(proposition.charAt(i) + 1), 9);
+            }
+            else if (response.charAt(i) == '-') {
+                newProposition += pickRandomNumber(0, Character.getNumericValue(proposition.charAt(i) - 1));
+            }
+            else if (response.charAt(i) == '=') {
+                newProposition += proposition.charAt(i);
+            }
+            if (response.charAt(i) != '+' && response.charAt(i) != '-' && response.charAt(i) != '=' || response.length() != 4) {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Veuillez saisir une réponse correcte. Recommencez : ");
+                response = sc.next();
+                loopResponse();
+                return;
+            }
+        }
+        this.proposition = newProposition;
     }
 
 }
