@@ -6,9 +6,13 @@ import java.util.Scanner;
  * Brings fields which are used in the three modes
  */
 abstract public class Game {
-    protected String combination;
-    protected String proposition;
-    protected String response;
+    protected String userCombination;
+    protected String userProposition;
+    protected String userResponse;
+    protected String computerCombination;
+    protected String computerProposition;
+    protected String computerResponse;
+    protected boolean endedGame;
 
     /**
      * Pick a random number between 0 and 10
@@ -20,8 +24,93 @@ abstract public class Game {
         return min + (int) (Math.random() * (max - min + 1));
     }
 
-    public void makeProposition(String combination) {
+    /**
+     * Build the random combination
+     */
+    public void makeCombination() {
+        computerCombination = "";
+        int number;
+        for (int i = 0; i < 4; i++) {
+            number = pickRandomNumber(0, 10);
+            computerCombination += number;
+        }
+    }
 
+    /**
+     * Implements the working of the game in the challenger mode
+     */
+    public void gameChallenger() {
+        computerResponse = "";
+        System.out.println("Votre proposition : ");
+        drawInputUser("proposition");
+        for (int i = 0; i < computerCombination.length(); i++) {
+            if ((int) computerCombination.charAt(i) > (int) userProposition.charAt(i)) {
+                computerResponse += "+";
+            } else if ((int) computerCombination.charAt(i) < (int) userProposition.charAt(i)) {
+                computerResponse += "-";
+            } else {
+                computerResponse += "=";
+            }
+        }
+        System.out.println("Proposition : " + userProposition + " -> Réponse : " + computerResponse);
+    }
+
+    /**
+     * Implements the working of the game in the challenger mode
+     */
+    public void gameDefender() {
+        proposeCombination();
+        do {
+            answerProposition();
+        } while(!userCombination.equals(computerProposition));
+        System.out.println("L'ordinateur a trouvé la bonne combinaison !");
+    }
+
+    /**
+     * The user answers to the proposition of the computer
+     */
+    public void answerProposition() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("La proposition de l'ordinateur est : " + computerProposition);
+        System.out.println("Votre réponse :");
+        userResponse = sc.next();
+        loopResponse();
+    }
+
+    /**
+     * The computer proposes a combination
+     */
+    public void proposeCombination() {
+        computerProposition = "";
+        for(int i = 0; i < userCombination.length(); i++) {
+            computerProposition += Integer.toString(pickRandomNumber(0, 9));
+        }
+    }
+
+    /**
+     * Controls the response of the user
+     */
+    public void loopResponse() {
+        String newProposition = "";
+        for (int i = 0; i < userResponse.length(); i++) {
+            if (userResponse.charAt(i) == '+') {
+                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i) + 1), 9);
+            }
+            else if (userResponse.charAt(i) == '-') {
+                newProposition += pickRandomNumber(0, Character.getNumericValue(computerProposition.charAt(i) - 1));
+            }
+            else if (userResponse.charAt(i) == '=') {
+                newProposition += computerProposition.charAt(i);
+            }
+            if (userResponse.charAt(i) != '+' && userResponse.charAt(i) != '-' && userResponse.charAt(i) != '=' || userResponse.length() != 4) {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Veuillez saisir une réponse correcte. Recommencez : ");
+                userResponse = sc.next();
+                loopResponse();
+                return;
+            }
+        }
+        this.computerProposition = newProposition;
     }
 
     /**
@@ -48,9 +137,9 @@ abstract public class Game {
         }
         try {
             if (field == "proposition") {
-                proposition = input;
+                userProposition = input;
             } else if (field == "combination") {
-                combination = input;
+                userCombination = input;
             }
         }
         catch (Exception e) {
