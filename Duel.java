@@ -2,7 +2,9 @@ package com.cursan.gameplay_studio;
 
 public class Duel extends Game {
     public Duel() {
-        developerMode = activateDeveloperMode();
+        readConfigFile();
+        developerMode = convertBooleanToString(properties.getProperty("developerMode", "defaultDeveloperMode"));
+        numberDigits = getNumberDigitsInFile();
         endedGame = false;
         boolean computerWinner = false;
         boolean userWinner = false;
@@ -10,7 +12,7 @@ public class Duel extends Game {
         System.out.println("Saisissez votre combinaison : ");
         do {
             drawInputUser("combination");
-        } while(userCombination.length() != 4);
+        } while(userCombination.length() != numberDigits);
         printSolution(userCombination);
         proposeCombination();
         answerProposition();

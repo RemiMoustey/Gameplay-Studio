@@ -1,11 +1,18 @@
 package com.cursan.gameplay_studio;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.Scanner;
 
 /**
  * Brings fields which are used in the three modes
  */
 abstract public class Game {
+    protected int numberDigits;
+    protected int numberTries;
     protected String userCombination;
     protected String userProposition;
     protected String userResponse;
@@ -13,23 +20,42 @@ abstract public class Game {
     protected String computerProposition;
     protected String computerResponse;
     protected boolean endedGame;
+    Properties properties = new Properties();
     protected boolean developerMode;
 
-    public boolean activateDeveloperMode() {
-        System.out.println("Voulez-vous activer le mode développeur ? (\"1\" : oui / \"2\" : non).");
-        Scanner sc = new Scanner(System.in);
-        String input = sc.next();
-        while (!input.equals("1") && !input.equals("2")) {
-            System.out.println("Veuillez entrer une réponse correcte (\"1\" : oui / \"2\" : non).");
-            input = sc.next();
+    /**
+     * Reads the file config.properties
+     */
+    public void readConfigFile() {
+        try {
+            FileInputStream in = new FileInputStream("src/com/cursan/gameplay_studio/config.properties");
+            properties.load(in);
+            in.close();
+        } catch (FileNotFoundException e) {
+            System.err.println("Unable to open the file");
+        } catch (IOException e) {
+            System.err.println("Unable to load config file");
         }
-
-        if (input.equals("1"))
-            return true;
-
-        return false;
     }
 
+    /**
+     * Converts a string to a boolean
+     *
+     * @param s
+     *          The string to convert
+     * @return
+     *          The boolean
+     */
+    public boolean convertBooleanToString (String s) {
+        return s.equals("true");
+    }
+
+    /**
+     * Prints the solution for the developer mode
+     *
+     * @param combination
+     *           The solution
+     */
     public void printSolution(String combination) {
         if (developerMode)
             if (combination == computerCombination)
@@ -53,11 +79,22 @@ abstract public class Game {
      */
     public void makeCombination() {
         computerCombination = "";
+        numberDigits = getNumberDigitsInFile();
         int number;
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < numberDigits; i++) {
             number = pickRandomNumber(0, 10);
             computerCombination += number;
         }
+    }
+
+    public int getNumberDigitsInFile() {
+        readConfigFile();
+        return Integer.parseInt(properties.getProperty("digits"));
+    }
+
+    public int getNumberTriesInFile() {
+        readConfigFile();
+        return Integer.parseInt(properties.getProperty("tries"));
     }
 
     /**
@@ -85,11 +122,16 @@ abstract public class Game {
     public void gameDefender() {
         proposeCombination();
         do {
+            System.out.println("Il reste à l'ordinateur " + numberTries + " essais");
             printSolution(userCombination);
             answerProposition();
             loopResponse();
-        } while(!userCombination.equals(computerProposition));
-        System.out.println("L'ordinateur a trouvé la bonne combinaison !");
+            numberTries--;
+        } while(!userCombination.equals(computerProposition) && numberTries > 0);
+        if (userCombination.equals(computerProposition))
+            System.out.println("L'ordinateur a trouvé la bonne combinaison !");
+        else if (numberTries == 0)
+            System.out.println("Dommage ! L'ordinateur n'a plus d'essai possible. La solution était : " + userCombination);
     }
 
     /**
@@ -120,15 +162,15 @@ abstract public class Game {
         String newProposition = "";
         for (int i = 0; i < userResponse.length(); i++) {
             if (userResponse.charAt(i) == '+') {
-                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i) + 1), 9);
+                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i)), 10);
             }
             else if (userResponse.charAt(i) == '-') {
-                newProposition += pickRandomNumber(0, Character.getNumericValue(computerProposition.charAt(i) - 1));
+                newProposition += pickRandomNumber(0, Character.getNumericValue(computerProposition.charAt(i)));
             }
             else if (userResponse.charAt(i) == '=') {
                 newProposition += computerProposition.charAt(i);
             }
-            if (userResponse.charAt(i) != '+' && userResponse.charAt(i) != '-' && userResponse.charAt(i) != '=' || userResponse.length() != 4) {
+            if (userResponse.charAt(i) != '+' && userResponse.charAt(i) != '-' && userResponse.charAt(i) != '=' || userResponse.length() != numberDigits) {
                 Scanner sc = new Scanner(System.in);
                 System.out.println("Veuillez saisir une réponse correcte. Recommencez : ");
                 userResponse = sc.next();
@@ -152,12 +194,12 @@ abstract public class Game {
             Integer.parseInt(input);
         }
         catch (NumberFormatException e) {
-            System.out.println("Saisie invalide : vous devez saisir un nombre entier à quatre chiffres.\nRecommencez : ");
+            System.out.println("Saisie invalide : vous devez saisir un nombre entier à " +  numberDigits + " chiffres.\nRecommencez : ");
             drawInputUser(field);
             return; // The first call has to finish
         }
-        if (input.length() != 4) {
-            System.out.println("Saisie invalide : vous devez saisir un nombre entier à quatre chiffres.\nRecommencez : ");
+        if (input.length() != getNumberDigitsInFile()) {
+            System.out.println("Saisie invalide : vous devez saisir un nombre entier à " + numberDigits + " chiffres.\nRecommencez : ");
             drawInputUser(field);
             return; // The first call has to finish
         }
