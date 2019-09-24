@@ -7,6 +7,7 @@ public class Defender extends Game {
      * Implements the Defender mode : the user answers to the propositions of the computer
      */
     public Defender() {
+        developerMode = activateDeveloperMode();
         System.out.println("Saisissez votre combinaison : ");
         do {
             drawInputUser("combination");

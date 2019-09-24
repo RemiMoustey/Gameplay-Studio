@@ -2,6 +2,7 @@ package com.cursan.gameplay_studio;
 
 public class Duel extends Game {
     public Duel() {
+        developerMode = activateDeveloperMode();
         endedGame = false;
         boolean computerWinner = false;
         boolean userWinner = false;
@@ -10,10 +11,13 @@ public class Duel extends Game {
         do {
             drawInputUser("combination");
         } while(userCombination.length() != 4);
+        printSolution(userCombination);
+        proposeCombination();
+        answerProposition();
+        makeCombination();
+        printSolution(computerCombination);
+        gameChallenger();
         do {
-            gameChallenger();
-            proposeCombination();
-            answerProposition();
             if (userProposition.equals(computerCombination)) {
                 System.out.println("Vous avez trouvé la bonne combinaison !");
                 endedGame = true;
@@ -32,6 +36,12 @@ public class Duel extends Game {
             }
             else if (userWinner && computerWinner) {
                 System.out.println("Match nul ! Vous avez trouvé la solution en même temps que l'ordinateur !");
+            }
+            if (!endedGame) {
+                printSolution(userCombination);
+                answerProposition();
+                printSolution(computerCombination);
+                gameChallenger();
             }
         } while(!endedGame);
     }

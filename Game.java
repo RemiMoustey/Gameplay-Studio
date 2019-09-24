@@ -13,6 +13,30 @@ abstract public class Game {
     protected String computerProposition;
     protected String computerResponse;
     protected boolean endedGame;
+    protected boolean developerMode;
+
+    public boolean activateDeveloperMode() {
+        System.out.println("Voulez-vous activer le mode développeur ? (\"1\" : oui / \"2\" : non).");
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
+        while (!input.equals("1") && !input.equals("2")) {
+            System.out.println("Veuillez entrer une réponse correcte (\"1\" : oui / \"2\" : non).");
+            input = sc.next();
+        }
+
+        if (input.equals("1"))
+            return true;
+
+        return false;
+    }
+
+    public void printSolution(String combination) {
+        if (developerMode)
+            if (combination == computerCombination)
+                System.out.println("La solution de l'ordinateur est : " + combination);
+            else if (combination == userCombination)
+                System.out.println("Votre solution est : " + combination);
+    }
 
     /**
      * Pick a random number between 0 and 10
@@ -21,7 +45,7 @@ abstract public class Game {
      *          The random double
      */
     public int pickRandomNumber(int min, int max) {
-        return min + (int) (Math.random() * (max - min + 1));
+        return min + (int) (Math.random() * (max - min));
     }
 
     /**
@@ -61,7 +85,9 @@ abstract public class Game {
     public void gameDefender() {
         proposeCombination();
         do {
+            printSolution(userCombination);
             answerProposition();
+            loopResponse();
         } while(!userCombination.equals(computerProposition));
         System.out.println("L'ordinateur a trouvé la bonne combinaison !");
     }
