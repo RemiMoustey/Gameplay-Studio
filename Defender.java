@@ -1,10 +1,11 @@
 package com.cursan.gameplay_studio;
 
-import java.util.Scanner;
-
+/**
+ * Implements the Defender mode : the user answers to the propositions of the computer
+ */
 public class Defender extends Game {
     /**
-     * Implements the Defender mode : the user answers to the propositions of the computer
+     * The constructor of the Defender Mode
      */
     public Defender() {
         readConfigFile();
@@ -16,5 +17,6 @@ public class Defender extends Game {
             drawInputUser("combination");
         } while(userCombination.length() != numberDigits);
         gameDefender();
+        choiceReplay("defender");
     }
 }

@@ -22,6 +22,8 @@ abstract public class Game {
     protected boolean endedGame;
     Properties properties = new Properties();
     protected boolean developerMode;
+    protected boolean replayMode;
+    protected boolean playOtherMode;
 
     /**
      * Reads the file config.properties
@@ -67,8 +69,12 @@ abstract public class Game {
     /**
      * Pick a random number between 0 and 10
      *
+     * @param min
+     *          The lower limit
+     * @param max
+     *          The higher limit
      * @return
-     *          The random double
+     *          The random integer
      */
     public int pickRandomNumber(int min, int max) {
         return min + (int) (Math.random() * (max - min));
@@ -87,11 +93,23 @@ abstract public class Game {
         }
     }
 
+    /**
+     * Reads the number of digits in a file and return it
+     *
+     * @return
+     *          The mentioned number of digits
+     */
     public int getNumberDigitsInFile() {
         readConfigFile();
         return Integer.parseInt(properties.getProperty("digits"));
     }
 
+    /**
+     * Reads the number of tries in a file and return it
+     *
+     * @return
+     *          The mentioned number of tries
+     */
     public int getNumberTriesInFile() {
         readConfigFile();
         return Integer.parseInt(properties.getProperty("tries"));
@@ -213,6 +231,47 @@ abstract public class Game {
         catch (Exception e) {
             System.err.println("Le champ saisi est invalide.");
             System.exit(1);
+        }
+    }
+
+    /**
+     *  Manages the different possible replays
+     *
+     * @param currentMode
+     *              The mode on which the user played
+     */
+    public void choiceReplay(String currentMode) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Voulez-vous rejouer ? (1 : rejouer au même mode, 2 : jouer à un autre mode, 3 : quitter le jeu)");
+        String input = sc.next();
+        while (!input.equals("1") && !input.equals("2") && !input.equals("3")) {
+            System.out.println("Saisie invalide. Recommencez. (1 : rejouer au même mode, 2 : jouer à un autre mode, 3 : quitter le jeu)");
+            input = sc.next();
+        }
+        if (input.equals("1")) {
+            if (currentMode == "challenger")
+                new Challenger();
+            else if (currentMode == "defender")
+                new Defender();
+            else if (currentMode == "duel")
+                new Duel();
+        }
+        else if (input.equals("2")) {
+            chooseMode();
+        }
+    }
+
+    /**
+     * Opens the select mode
+     */
+    public static void chooseMode() {
+        Mode mode = new Mode();
+        if (mode.getSelectMode() == 1) {
+            new Challenger();
+        } else if (mode.getSelectMode() == 2) {
+            new Defender();
+        } else if (mode.getSelectMode() == 3) {
+            new Duel();
         }
     }
 }

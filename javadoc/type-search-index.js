@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.cursan.gameplay_studio","l":"Challenger"},{"p":"com.cursan.gameplay_studio","l":"Defender"},{"p":"com.cursan.gameplay_studio","l":"Duel"},{"p":"com.cursan.gameplay_studio","l":"Game"},{"p":"com.cursan.gameplay_studio","l":"Main"},{"p":"com.cursan.gameplay_studio","l":"Mode"}]

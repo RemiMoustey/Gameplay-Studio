@@ -5,7 +5,7 @@ package com.cursan.gameplay_studio;
  */
 public class Challenger extends Game {
     /**
-     * Implements the Challenger mode : the user tries to find the generated combination
+     * The constructor of the Challenger Mode
      */
     public Challenger() {
         readConfigFile();
@@ -22,5 +22,6 @@ public class Challenger extends Game {
             System.out.println("Félicitations ! Vous avez trouvé la bonne combinaison !");
         else if (numberTries == 0)
             System.out.println("Dommage ! Vous n'avez plus d'essai possible. La solution était : " + computerCombination);
+        choiceReplay("challenger");
     }
 }

@@ -1,6 +1,12 @@
 package com.cursan.gameplay_studio;
 
+/**
+ * Implements the Duel mode : the user and the computer play against each other
+ */
 public class Duel extends Game {
+    /**
+     * The constructor of the Duel Mode
+     */
     public Duel() {
         readConfigFile();
         developerMode = convertBooleanToString(properties.getProperty("developerMode", "defaultDeveloperMode"));
@@ -46,5 +52,6 @@ public class Duel extends Game {
                 gameChallenger();
             }
         } while(!endedGame);
+        choiceReplay("duel");
     }
 }
