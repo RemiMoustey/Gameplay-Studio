@@ -1,13 +1,20 @@
 package com.cursan.gameplay_studio;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 /**
  * Implements the Duel mode : the user and the computer play against each other
  */
 public class Duel extends Game {
+
+    private static final Logger logger = LogManager.getLogger(Defender.class);
+
     /**
      * The constructor of the Duel Mode
      */
     public Duel() {
+        logger.debug("Beginning of Duel mod");
         readConfigFile();
         developerMode = convertBooleanToString(properties.getProperty("developerMode", "defaultDeveloperMode"));
         numberDigits = getNumberDigitsInFile();
@@ -52,6 +59,7 @@ public class Duel extends Game {
                 gameChallenger();
             }
         } while(!endedGame);
+        logger.debug("End of game");
         choiceReplay("duel");
     }
 }

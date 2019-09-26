@@ -1,6 +1,8 @@
 package com.cursan.gameplay_studio;
 
-import java.io.File;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -22,15 +24,16 @@ abstract public class Game {
     protected boolean endedGame;
     Properties properties = new Properties();
     protected boolean developerMode;
-    protected boolean replayMode;
-    protected boolean playOtherMode;
+
+    private static final Logger logger = LogManager.getLogger(Game.class);
 
     /**
      * Reads the file config.properties
      */
     public void readConfigFile() {
+        logger.debug("Reading of the file configuration");
         try {
-            FileInputStream in = new FileInputStream("src/com/cursan/gameplay_studio/config.properties");
+            FileInputStream in = new FileInputStream("src/main/java/com/cursan/gameplay_studio/config.properties");
             properties.load(in);
             in.close();
         } catch (FileNotFoundException e) {
@@ -86,6 +89,7 @@ abstract public class Game {
     public void makeCombination() {
         computerCombination = "";
         numberDigits = getNumberDigitsInFile();
+        logger.debug("Random draw of the combination (" + numberDigits + " numbers)");
         int number;
         for (int i = 0; i < numberDigits; i++) {
             number = pickRandomNumber(0, 10);
@@ -265,6 +269,7 @@ abstract public class Game {
      * Opens the select mode
      */
     public static void chooseMode() {
+        logger.debug("Choix du mod");
         Mode mode = new Mode();
         if (mode.getSelectMode() == 1) {
             new Challenger();

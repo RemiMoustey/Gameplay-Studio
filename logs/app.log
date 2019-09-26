@@ -1,0 +1,30 @@
+2019-09-26 10:05:05,435 DEBUG c.c.g.Main [main] Ouverture de l'application
+2019-09-26 10:05:20,695 DEBUG c.c.g.Main [main] Fermeture de l'application
+2019-09-26 10:10:03,949 DEBUG c.c.g.Main [main] Ouverture de l'application
+2019-09-26 10:10:21,945 DEBUG c.c.g.Main [main] Fermeture de l'application
+2019-09-26 10:14:15,474 DEBUG c.c.g.Main [main] Ouverture de l'application
+2019-09-26 10:15:01,991 DEBUG c.c.g.Main [main] Fermeture de l'application
+2019-09-26 10:22:58,665 DEBUG c.c.g.Main [main] Ouverture de l'application
+2019-09-26 10:22:58,673 DEBUG c.c.g.Game [main] Choix du mod
+2019-09-26 10:22:59,921 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-09-26 10:23:21,375 DEBUG c.c.g.Main [main] Fermeture de l'application
+2019-09-26 10:57:06,508 DEBUG c.c.g.Main [main] Start of application
+2019-09-26 10:57:06,585 DEBUG c.c.g.Game [main] Choix du mod
+2019-09-26 10:57:09,378 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-09-26 10:57:09,379 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:09,380 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:09,381 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:09,381 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-09-26 10:57:11,309 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:15,940 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:22,414 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:25,350 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:25,350 DEBUG c.c.g.Challenger [main] End of game
+2019-09-26 10:57:27,669 DEBUG c.c.g.Game [main] Choix du mod
+2019-09-26 10:57:29,752 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-09-26 10:57:29,752 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:29,752 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:29,753 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:57:31,580 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-09-26 10:58:23,638 DEBUG c.c.g.Defender [main] End of game
+2019-09-26 10:58:27,829 DEBUG c.c.g.Main [main] End of application
