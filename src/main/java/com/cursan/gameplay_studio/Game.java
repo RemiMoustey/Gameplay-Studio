@@ -147,7 +147,6 @@ abstract public class Game {
             System.out.println("Il reste à l'ordinateur " + numberTries + " essais");
             printSolution(userCombination);
             answerProposition();
-            loopResponse();
             numberTries--;
         } while(!userCombination.equals(computerProposition) && numberTries > 0);
         if (userCombination.equals(computerProposition))
@@ -173,7 +172,7 @@ abstract public class Game {
     public void proposeCombination() {
         computerProposition = "";
         for(int i = 0; i < userCombination.length(); i++) {
-            computerProposition += Integer.toString(pickRandomNumber(0, 9));
+            computerProposition += Integer.toString(pickRandomNumber(0, 10));
         }
     }
 
@@ -184,7 +183,7 @@ abstract public class Game {
         String newProposition = "";
         for (int i = 0; i < userResponse.length(); i++) {
             if (userResponse.charAt(i) == '+') {
-                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i)), 10);
+                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i)) + 1, 10);
             }
             else if (userResponse.charAt(i) == '-') {
                 newProposition += pickRandomNumber(0, Character.getNumericValue(computerProposition.charAt(i)));
