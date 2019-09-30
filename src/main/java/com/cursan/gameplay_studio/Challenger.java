@@ -20,7 +20,11 @@ public class Challenger extends Game {
         numberTries = getNumberTriesInFile();
         makeCombination();
         do {
-            System.out.println("Il vous reste " + numberTries + " essais.");
+            if (numberTries > 1) {
+                System.out.println("Il vous reste " + numberTries + " essais.");
+            } else if (numberTries == 1) {
+                System.out.println("Il vous reste " + numberTries + " essai.");
+            }
             printSolution(computerCombination);
             gameChallenger();
             numberTries--;

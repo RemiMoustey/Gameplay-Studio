@@ -144,7 +144,11 @@ abstract public class Game {
     public void gameDefender() {
         proposeCombination();
         do {
-            System.out.println("Il reste à l'ordinateur " + numberTries + " essais");
+            if (numberTries > 1) {
+                System.out.println("Il reste à l'ordinateur " + numberTries + " essais");
+            } else if (numberTries == 1) {
+                System.out.println("Il reste à l'ordinateur " + numberTries + " essai");
+            }
             printSolution(userCombination);
             answerProposition();
             numberTries--;
