@@ -272,7 +272,7 @@ abstract public class Game {
      * Opens the select mode
      */
     public static void chooseMode() {
-        logger.debug("Choix du mod");
+        logger.debug("Choice of a mod");
         Mode mode = new Mode();
         if (mode.getSelectMode().equals("1")) {
             new Challenger();
