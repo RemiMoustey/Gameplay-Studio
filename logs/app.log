@@ -158,3 +158,80 @@
 2019-09-30 13:50:47,219 DEBUG c.c.g.Game [main] Reading of the file configuration
 2019-09-30 13:51:33,100 DEBUG c.c.g.Defender [main] End of game
 2019-09-30 13:51:39,685 DEBUG c.c.g.Main [main] End of application
+2019-10-01 08:02:31,473 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:02:31,481 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:04:03,347 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:04:03,350 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:04:09,748 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:04:09,750 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:04:20,105 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 08:04:20,105 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:04:20,105 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:04:20,106 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:04:20,107 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 08:04:37,880 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:04:52,104 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:03,200 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:08,312 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:14,610 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:17,713 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:21,946 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:21,947 DEBUG c.c.g.Challenger [main] End of game
+2019-10-01 08:05:36,473 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:05:42,207 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 08:05:42,207 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:42,207 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:42,208 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:05:44,089 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:07:57,164 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:07:57,166 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:08:00,176 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 08:08:00,176 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:00,176 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:00,176 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:00,177 DEBUG c.c.g.Game [main] Random draw of the combination (3 numbers)
+2019-10-01 08:08:06,065 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:12,017 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:21,721 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:08:21,722 DEBUG c.c.g.Challenger [main] End of game
+2019-10-01 08:08:24,913 DEBUG c.c.g.Main [main] End of application
+2019-10-01 08:11:30,790 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:11:30,798 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:12:04,217 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:12:04,220 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:12:09,545 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 08:12:09,546 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:12:09,546 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:12:09,547 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:12:09,547 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 08:12:13,735 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:12:15,721 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:22:51,142 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:22:51,146 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:22:52,361 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 08:22:52,361 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:08,236 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:23:08,239 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:23:09,601 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 08:23:09,601 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:09,602 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:09,602 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:09,602 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 08:23:10,775 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:11,800 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:16,791 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:18,430 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:22,408 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:30,598 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:33,536 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:23:33,537 DEBUG c.c.g.Challenger [main] End of game
+2019-10-01 08:23:37,200 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:25:31,150 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 08:25:31,153 DEBUG c.c.g.Game [main] Choix du mod
+2019-10-01 08:25:32,648 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 08:25:32,648 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:25:32,649 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:25:32,650 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:25:33,791 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 08:26:16,718 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 08:26:18,911 DEBUG c.c.g.Main [main] End of application

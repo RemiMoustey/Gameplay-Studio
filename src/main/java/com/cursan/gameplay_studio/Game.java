@@ -274,11 +274,11 @@ abstract public class Game {
     public static void chooseMode() {
         logger.debug("Choix du mod");
         Mode mode = new Mode();
-        if (mode.getSelectMode() == 1) {
+        if (mode.getSelectMode().equals("1")) {
             new Challenger();
-        } else if (mode.getSelectMode() == 2) {
+        } else if (mode.getSelectMode().equals("2")) {
             new Defender();
-        } else if (mode.getSelectMode() == 3) {
+        } else if (mode.getSelectMode().equals("3")) {
             new Duel();
         }
     }
