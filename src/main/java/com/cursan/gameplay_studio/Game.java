@@ -33,7 +33,7 @@ abstract public class Game {
     public void readConfigFile() {
         logger.debug("Reading of the file configuration");
         try {
-            FileInputStream in = new FileInputStream("src/main/java/com/cursan/gameplay_studio/config.properties");
+            FileInputStream in = new FileInputStream("src/main/resources/config.properties");
             properties.load(in);
             in.close();
         } catch (FileNotFoundException e) {
