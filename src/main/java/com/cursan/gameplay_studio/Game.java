@@ -20,6 +20,8 @@ abstract public class Game {
     protected String userResponse;
     protected String computerCombination;
     protected String computerProposition;
+    protected int[] min;
+    protected int[] max;
     protected String computerResponse;
     protected boolean endedGame;
     Properties properties = new Properties();
@@ -143,6 +145,14 @@ abstract public class Game {
      */
     public void gameDefender() {
         proposeCombination();
+        min = new int[getNumberDigitsInFile()];
+        for (int i = 0; i < min.length; i++) {
+            min[i] = -1;
+        }
+        max = new int[getNumberDigitsInFile()];
+        for (int i = 0; i < max.length; i++) {
+            max[i] = 10;
+        }
         do {
             if (numberTries > 1) {
                 System.out.println("Il reste à l'ordinateur " + numberTries + " essais");
@@ -184,26 +194,33 @@ abstract public class Game {
      * Controls the response of the user
      */
     public void loopResponse() {
-        String newProposition = "";
+        String currentProposition = computerProposition;
+        computerProposition = "";
         for (int i = 0; i < userResponse.length(); i++) {
             if (userResponse.charAt(i) == '+') {
-                newProposition += pickRandomNumber(Character.getNumericValue(computerProposition.charAt(i)) + 1, 10);
+                if (Character.getNumericValue(currentProposition.charAt(i)) > min[i]) {
+                    min[i] = Character.getNumericValue(currentProposition.charAt(i));
+                }
+                computerProposition += pickRandomNumber(min[i] + 1, max[i]);
             }
             else if (userResponse.charAt(i) == '-') {
-                newProposition += pickRandomNumber(0, Character.getNumericValue(computerProposition.charAt(i)));
+                if (Character.getNumericValue(currentProposition.charAt(i)) < max[i]) {
+                    max[i] = Character.getNumericValue(currentProposition.charAt(i));
+                }
+                computerProposition += pickRandomNumber(min[i] + 1, max[i]);
             }
             else if (userResponse.charAt(i) == '=') {
-                newProposition += computerProposition.charAt(i);
+                computerProposition += currentProposition.charAt(i);
             }
             if (userResponse.charAt(i) != '+' && userResponse.charAt(i) != '-' && userResponse.charAt(i) != '=' || userResponse.length() != numberDigits) {
                 Scanner sc = new Scanner(System.in);
                 System.out.println("Veuillez saisir une réponse correcte. Recommencez : ");
+                computerProposition = currentProposition;
                 userResponse = sc.next();
                 loopResponse();
                 return;
             }
         }
-        this.computerProposition = newProposition;
     }
 
     /**

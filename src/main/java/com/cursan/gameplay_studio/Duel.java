@@ -22,6 +22,14 @@ public class Duel extends Game {
         boolean computerWinner = false;
         boolean userWinner = false;
         makeCombination();
+        min = new int[getNumberDigitsInFile()];
+        for (int i = 0; i < min.length; i++) {
+            min[i] = -1;
+        }
+        max = new int[getNumberDigitsInFile()];
+        for (int i = 0; i < max.length; i++) {
+            max[i] = 10;
+        }
         System.out.println("Saisissez votre combinaison : ");
         do {
             drawInputUser("combination");
@@ -35,11 +43,13 @@ public class Duel extends Game {
         do {
             if (userProposition.equals(computerCombination)) {
                 System.out.println("Vous avez trouvé la bonne combinaison !");
+                System.out.println("Votre solution était : " + userCombination);
                 endedGame = true;
                 userWinner = true;
             }
             if (computerProposition.equals(userCombination)) {
                 System.out.println("L'ordinateur a trouvé la bonne combinaison !");
+                System.out.println("La solution de l'ordinateur était : " + computerCombination);
                 endedGame = true;
                 computerWinner = true;
             }

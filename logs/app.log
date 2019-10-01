@@ -1,1 +1,810 @@
 
+2019-10-01 10:45:19,257 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 10:45:19,264 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 10:45:30,926 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 10:45:30,929 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 10:45:32,349 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 10:45:32,350 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 10:45:32,350 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 10:45:32,351 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 10:45:32,352 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 10:45:34,024 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:14:48,839 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:14:48,847 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:14:50,575 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:14:50,575 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:14:50,575 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:14:50,576 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:14:52,664 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:16:18,144 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:16:18,167 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:16:19,823 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:16:19,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:16:19,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:16:19,824 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:16:21,814 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:17:41,969 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:17:41,976 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:17:44,823 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:17:44,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:17:44,824 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:17:44,824 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:17:46,444 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:27:23,696 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:27:23,703 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:27:25,299 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:27:25,299 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:27:25,299 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:27:25,300 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:27:26,661 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:29:19,326 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:29:19,333 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:29:20,634 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:29:20,634 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:29:20,635 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:29:20,635 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:29:21,820 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:31:45,531 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:31:45,540 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:31:47,127 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:31:47,127 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:31:47,128 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:31:47,129 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:31:48,230 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:34:41,238 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:34:41,260 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:34:43,686 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:34:43,686 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:34:43,687 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:34:43,688 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:34:45,268 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:35:34,592 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:35:34,603 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:35:35,950 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:35:35,950 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:35:35,951 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:35:35,952 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:35:36,940 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:36:05,972 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:36:05,986 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:36:07,309 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:36:07,309 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:36:07,310 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:36:07,310 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:36:08,483 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:40:11,001 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:40:11,001 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:40:12,628 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:40:12,629 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:40:12,629 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:40:12,629 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:40:15,765 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:43:23,501 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:43:23,509 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:43:25,390 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:43:25,390 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:43:25,390 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:43:25,391 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:43:26,859 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:45:29,822 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:45:29,848 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:45:31,678 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:45:31,678 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:45:31,679 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:45:31,680 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:45:33,653 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:52:59,932 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:52:59,939 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:53:01,444 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:53:01,444 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:01,444 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:01,445 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:02,547 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:41,496 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 14:53:41,511 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 14:53:45,061 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 14:53:45,061 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:45,062 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:45,063 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:53:46,437 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 14:54:35,971 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:13:56,503 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:13:56,510 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:13:58,352 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:13:58,353 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:13:58,353 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:13:58,354 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:13:59,713 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:03,763 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:03,764 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:48,227 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:48,227 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:54,507 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:54,507 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:57,931 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:57,931 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:14:57,932 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:16:16,089 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:16:16,101 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:16:17,579 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:16:17,579 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:16:17,580 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:16:17,581 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:16:19,594 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:16:22,665 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:16:22,666 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:47,858 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:17:47,866 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:17:49,365 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:17:49,365 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:49,366 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:49,367 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:50,537 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:52,770 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:17:52,771 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:38,882 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:18:38,893 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:18:40,195 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:18:40,195 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:40,196 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:40,197 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:41,242 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:44,001 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:18:44,001 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:28,395 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:20:28,402 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:20:29,698 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:20:29,698 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:29,698 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:29,699 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:30,578 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:33,218 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:33,219 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:38,994 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:38,994 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:51,256 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:20:51,256 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:24,033 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:22:24,045 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:22:43,665 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:22:43,665 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:43,665 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:43,666 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:44,882 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:47,185 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:22:47,185 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:24:27,338 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:24:27,339 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:40,860 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:28:40,866 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:28:42,624 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:28:42,624 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:42,624 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:42,625 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:44,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:44,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:44,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:51,033 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:51,033 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:59,650 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:28:59,650 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:30,285 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:29:30,295 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:29:31,771 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:29:31,771 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:31,772 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:31,773 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:33,936 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:33,936 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:33,937 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:59,116 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:29:59,116 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:30:44,530 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:30:44,531 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:33:31,693 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:33:31,700 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:33:33,740 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:34:11,865 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:34:11,872 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:34:13,626 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:47,707 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:35:47,716 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:35:49,394 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:35:49,395 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:49,395 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:49,396 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:50,679 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:50,680 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:50,680 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:52,921 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:35:52,921 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:00,033 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:00,033 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:38,320 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:36:38,330 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:36:39,835 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:36:39,835 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:39,836 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:39,837 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:40,953 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:40,954 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:36:40,954 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:37:03,924 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:37:03,925 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:02,230 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:02,231 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:06,847 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:38:06,856 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:38:08,290 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:38:08,291 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:08,291 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:08,292 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:09,112 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:09,113 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:09,113 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:38:32,546 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:38:54,961 DEBUG c.c.g.Main [main] End of application
+2019-10-01 15:38:59,688 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:38:59,698 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:39:01,370 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:39:01,371 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:39:01,371 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:39:01,372 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:39:02,585 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:39:02,586 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:39:02,586 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:40:05,812 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:40:07,585 DEBUG c.c.g.Main [main] End of application
+2019-10-01 15:41:02,346 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:41:02,349 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:41:04,067 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:41:04,067 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:04,068 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:04,069 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:04,069 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:41:04,070 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:04,070 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:05,384 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:10,217 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:41:10,218 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:41:12,609 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:20,372 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:42:20,381 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:42:21,979 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:42:21,979 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:21,980 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:21,981 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:21,981 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:42:21,981 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:21,982 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:42:23,407 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:43:02,001 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:43:02,002 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:43:08,249 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:22,233 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:44:22,237 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:44:28,249 DEBUG c.c.g.Defender [main] Beginning of Defender mod
+2019-10-01 15:44:28,251 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:28,251 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:28,251 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:29,872 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:29,872 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:29,872 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:33,558 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:44:33,561 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:44:35,474 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:44:35,475 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:35,475 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:35,476 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:35,477 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:44:35,477 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:35,478 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:37,488 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:42,319 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:42,320 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:44:44,289 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:44:52,144 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:45:21,415 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:45:21,415 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:48:13,093 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:48:13,100 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:48:14,986 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:48:14,986 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:48:14,986 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:48:14,987 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:48:14,987 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:48:14,987 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:48:14,987 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:48:16,625 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:10,345 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:49:10,349 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:49:11,857 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:49:11,857 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:11,857 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:11,858 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:11,858 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:49:11,858 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:11,858 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:12,887 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:15,320 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:15,321 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:49:17,056 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:20,966 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:49:20,970 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:49:22,473 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:49:22,473 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:22,473 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:22,474 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:22,474 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:49:22,474 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:22,474 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:23,470 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:25,977 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:25,978 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:49:27,545 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:30,653 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:49:30,658 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:49:32,280 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:49:32,280 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:32,280 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:32,281 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:32,281 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:49:32,281 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:32,282 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:49:33,750 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:14,355 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:51:14,365 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:51:16,346 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:51:16,346 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:16,346 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:16,347 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:16,347 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:51:16,347 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:16,348 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:17,703 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:56,515 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:51:56,516 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:52:00,568 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:52:42,440 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:53:20,320 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:53:47,960 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:03,992 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:05,615 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:05,615 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:54:11,918 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:54:11,918 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:11,919 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:11,919 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:11,919 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:54:11,919 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:11,920 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:13,816 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:24,788 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:24,789 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:54:31,051 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:54:31,056 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:54:32,800 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:54:32,800 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:32,801 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:32,801 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:32,802 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:54:32,802 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:32,802 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:33,751 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:38,367 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:54:38,368 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:54:40,456 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:28,928 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:36,624 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:43,200 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:43,200 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:55:56,477 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:55:56,480 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:55:58,090 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:55:58,090 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:58,091 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:58,092 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:58,092 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:55:58,093 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:58,093 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:55:58,920 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:03,945 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:03,945 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:05,760 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:13,370 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:56:13,373 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:56:15,153 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:56:15,153 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:15,154 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:15,155 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:15,156 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:15,156 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:15,157 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:16,110 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:23,001 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:23,002 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:25,119 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:29,004 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:56:29,006 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:56:30,642 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:56:30,642 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:30,642 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:30,643 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:30,643 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:30,644 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:30,644 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:32,176 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:36,087 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:36,087 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:38,174 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:43,521 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:56:43,524 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:56:46,656 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:56:46,656 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:46,656 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:46,657 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:46,657 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:46,657 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:46,658 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:47,598 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:51,503 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:51,503 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:56:53,318 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:54,415 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:55,727 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:56:59,816 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:56:59,820 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:57:01,769 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:57:01,769 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:01,769 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:01,770 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:01,770 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:01,770 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:01,770 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:02,807 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:06,879 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:06,880 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:08,609 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:12,478 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:57:12,481 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:57:14,586 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:57:14,587 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:14,587 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:14,588 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:14,589 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:14,589 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:14,589 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:16,382 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:18,825 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:18,826 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:22,032 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:26,109 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:57:26,112 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:57:28,146 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:57:28,146 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:28,146 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:28,147 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:28,147 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:28,148 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:28,148 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:29,336 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:32,976 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:32,976 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:36,304 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:50,966 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 15:57:50,970 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 15:57:52,400 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:57:52,400 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:52,400 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:52,401 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:52,401 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:52,401 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:52,401 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:53,304 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:56,960 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:57:56,960 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:57:59,262 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:20,998 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:27,544 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:34,016 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:34,017 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:58:37,368 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:58:37,368 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:37,369 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:37,369 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:37,369 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:58:37,370 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:37,370 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:38,591 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:45,087 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:45,087 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:58:47,535 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:53,423 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:58:59,359 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:04,880 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:04,880 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 15:59:10,024 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 15:59:10,024 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:10,025 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:10,025 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:10,025 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:59:10,026 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:10,026 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:11,640 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:17,142 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:17,142 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 15:59:26,544 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:38,399 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 15:59:49,743 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:00,071 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:00,071 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:00:05,127 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:00:05,128 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:05,128 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:05,128 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:05,129 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:00:05,129 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:05,129 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:06,472 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:11,656 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:11,656 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:00:13,728 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:20,607 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:29,031 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:39,856 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:39,856 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:00:43,990 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:00:45,241 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:00:45,241 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:45,241 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:45,242 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:45,242 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:00:45,242 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:45,243 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:46,456 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:50,303 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:00:50,304 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:00:52,278 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:01,112 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:08,431 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:15,720 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:15,720 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:01:21,336 DEBUG c.c.g.Main [main] End of application
+2019-10-01 16:01:25,510 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:01:25,513 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:01:27,463 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:01:27,464 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:27,464 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:27,465 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:27,465 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:01:27,465 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:27,465 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:01:29,735 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:14,920 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:02:14,930 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:02:16,601 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:02:16,602 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:16,602 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:16,603 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:16,604 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:02:16,604 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:16,605 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:17,759 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:53,123 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:02:53,132 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:02:54,601 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:02:54,601 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:54,602 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:54,603 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:54,604 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:02:54,604 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:54,605 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:02:55,430 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:20,684 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:04:20,691 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:04:23,471 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:04:23,471 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:23,471 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:23,472 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:23,472 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:04:23,472 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:23,473 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:24,534 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:28,591 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:28,591 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:04:34,085 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:04:47,877 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:05:03,487 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:05:34,807 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:05:34,808 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:07:02,177 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:07:02,180 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:07:04,858 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:07:04,858 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:04,858 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:04,859 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:04,859 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:07:04,859 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:04,859 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:06,281 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:09,958 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:09,959 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:07:12,575 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:33,501 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:48,319 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:07:48,320 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:08:09,871 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:08:09,871 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:09,872 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:09,872 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:09,873 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:08:09,873 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:09,873 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:12,135 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:17,984 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:17,984 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:08:22,262 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:08:36,711 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:09:06,127 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:09:58,469 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:09:58,470 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:10:06,167 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:10:06,167 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:06,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:06,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:06,168 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:10:06,168 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:06,169 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:25,234 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:10:25,237 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:10:26,898 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:10:26,898 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:26,898 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:26,899 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:26,899 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:10:26,899 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:26,899 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:27,973 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:32,455 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:10:32,455 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:10:35,438 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:11:01,255 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:11:11,358 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:11:24,655 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:11:24,656 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:12:15,357 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:12:15,365 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:12:16,542 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:12:16,543 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:16,543 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:16,543 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:16,544 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:12:16,544 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:16,544 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:17,685 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:58,062 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:12:58,063 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:12:59,992 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:13:00,001 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:13:02,865 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:13:02,865 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:02,866 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:02,867 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:02,868 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:13:02,868 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:02,868 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:04,141 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:21,726 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:21,727 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:13:25,677 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:13:57,007 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:14:12,333 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:14:30,382 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:14:30,383 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:15:03,949 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:15:03,958 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:15:05,289 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:15:05,289 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:05,290 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:05,291 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:05,291 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:15:05,292 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:05,292 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:08,576 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:25,544 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:15:25,544 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:15:29,774 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:03,156 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:17:03,161 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:17:14,091 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:17:14,101 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:17:15,612 DEBUG c.c.g.Challenger [main] Beginning of Challenger mod
+2019-10-01 16:17:15,612 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:15,613 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:15,614 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:15,614 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:17:17,743 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:26,990 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:35,314 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:40,687 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:17:42,497 DEBUG c.c.g.Challenger [main] End of game
+2019-10-01 16:18:38,046 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:18:38,655 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:18:38,655 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:18:38,656 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:18:38,656 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:18:38,656 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:18:38,657 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:18:38,657 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:18:41,062 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:19:04,450 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:19:04,451 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:19:08,909 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:40,355 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:20:40,359 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:20:41,905 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:20:41,905 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:41,906 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:41,907 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:41,907 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:20:41,907 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:41,907 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:43,069 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:56,309 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:56,309 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:20:59,990 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:20:59,991 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:21:02,932 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:21:02,933 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:02,933 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:02,933 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:02,933 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:21:02,933 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:02,934 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:04,494 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:07,164 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:07,165 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:21:12,981 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:21:37,143 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:16,230 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:22:16,234 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:22:19,278 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:22:19,278 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:19,279 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:19,279 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:19,279 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:22:19,280 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:19,280 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:20,397 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:36,704 DEBUG c.c.g.Main [main] Start of application
+2019-10-01 16:22:36,708 DEBUG c.c.g.Game [main] Choice of a mod
+2019-10-01 16:22:38,405 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:22:38,406 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:38,406 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:38,406 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:38,407 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:22:38,407 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:38,407 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:39,694 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:44,205 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:44,206 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:22:47,110 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:58,468 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:22:58,469 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:23:06,822 DEBUG c.c.g.Defender [main] Beginning of Duel mod
+2019-10-01 16:23:06,822 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:06,822 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:06,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:06,823 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:23:06,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:06,823 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:08,790 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:14,982 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:14,983 DEBUG c.c.g.Game [main] Random draw of the combination (4 numbers)
+2019-10-01 16:23:17,902 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:33,510 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:42,598 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:23:59,798 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:24:22,614 DEBUG c.c.g.Game [main] Reading of the file configuration
+2019-10-01 16:24:22,615 DEBUG c.c.g.Defender [main] End of game
+2019-10-01 16:24:29,654 DEBUG c.c.g.Main [main] End of application
